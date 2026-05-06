@@ -1,0 +1,4 @@
+tests\BaseTest.class
+tests\CriticalPathTest.class
+tests\PriceSortingTest.class
+tests\FlightSearchTest.class

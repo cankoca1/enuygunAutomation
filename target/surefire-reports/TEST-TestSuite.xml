@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="149.801" tests="4" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\user\.cache\selenium\chromedriver\win64\148.0.7778.97\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1254"/>
+    <property name="java.class.path" value="C:\Users\user\Desktop\enuygunAutomation-main\target\test-classes;C:\Users\user\Desktop\enuygunAutomation-main\target\classes;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-java\4.21.0\selenium-java-4.21.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-api\4.21.0\selenium-api-4.21.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.21.0\selenium-chrome-driver-4.21.0.jar;C:\Users\user\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.21.0\selenium-chromium-driver-4.21.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-json\4.21.0\selenium-json-4.21.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.21.0\selenium-manager-4.21.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.21.0\selenium-devtools-v123-4.21.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.21.0\selenium-devtools-v124-4.21.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.21.0\selenium-devtools-v125-4.21.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.21.0\selenium-devtools-v85-4.21.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.21.0\selenium-edge-driver-4.21.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.21.0\selenium-firefox-driver-4.21.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-http\4.21.0\selenium-http-4.21.0.jar;C:\Users\user\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.21.0\selenium-ie-driver-4.21.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.21.0\selenium-remote-driver-4.21.0.jar;C:\Users\user\.m2\repository\com\google\guava\guava\33.2.0-jre\guava-33.2.0-jre.jar;C:\Users\user\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\user\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\user\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\user\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\user\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\user\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-api\1.38.0\opentelemetry-api-1.38.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-context\1.38.0\opentelemetry-context-1.38.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.38.0\opentelemetry-exporter-logging-1.38.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.38.0\opentelemetry-sdk-common-1.38.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.38.0\opentelemetry-sdk-extension-autoconfigure-spi-1.38.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.38.0\opentelemetry-sdk-extension-autoconfigure-1.38.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.38.0-alpha\opentelemetry-api-incubator-1.38.0-alpha.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.38.0\opentelemetry-sdk-trace-1.38.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.38.0\opentelemetry-sdk-1.38.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.38.0\opentelemetry-sdk-metrics-1.38.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.38.0\opentelemetry-sdk-logs-1.38.0.jar;C:\Users\user\.m2\repository\net\bytebuddy\byte-buddy\1.14.15\byte-buddy-1.14.15.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-os\4.21.0\selenium-os-4.21.0.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.21.0\selenium-safari-driver-4.21.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-support\4.21.0\selenium-support-4.21.0.jar;C:\Users\user\.m2\repository\io\github\bonigarcia\webdrivermanager\5.8.0\webdrivermanager-5.8.0.jar;C:\Users\user\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\user\.m2\repository\com\github\docker-java\docker-java\3.3.6\docker-java-3.3.6.jar;C:\Users\user\.m2\repository\com\github\docker-java\docker-java-core\3.3.6\docker-java-core-3.3.6.jar;C:\Users\user\.m2\repository\com\github\docker-java\docker-java-api\3.3.6\docker-java-api-3.3.6.jar;C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\user\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\user\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\user\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\user\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\user\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.6\docker-java-transport-httpclient5-3.3.6.jar;C:\Users\user\.m2\repository\com\github\docker-java\docker-java-transport\3.3.6\docker-java-transport-3.3.6.jar;C:\Users\user\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\user\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-compress\1.26.1\commons-compress-1.26.1.jar;C:\Users\user\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;C:\Users\user\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\user\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\user\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\user\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\user\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\user\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\user\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\user\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\user\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\user\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;C:\Users\user\.m2\repository\ch\qos\logback\logback-classic\1.5.6\logback-classic-1.5.6.jar;C:\Users\user\.m2\repository\ch\qos\logback\logback-core\1.5.6\logback-core-1.5.6.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Europe/Istanbul"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\user\Desktop\eclipse1\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.9.v20251105-0741\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\user\AppData\Local\Temp\surefire2507916691535365908\surefirebooter-20260506220306998_3.jar C:\Users\user\AppData\Local\Temp\surefire2507916691535365908 2026-05-06T22-03-06_936-jvmRun1 surefire-20260506220306998_1tmp surefire_0-20260506220306998_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\user\Desktop\enuygunAutomation-main\target\test-classes;C:\Users\user\Desktop\enuygunAutomation-main\target\classes;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-java\4.21.0\selenium-java-4.21.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-api\4.21.0\selenium-api-4.21.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.21.0\selenium-chrome-driver-4.21.0.jar;C:\Users\user\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.21.0\selenium-chromium-driver-4.21.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-json\4.21.0\selenium-json-4.21.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.21.0\selenium-manager-4.21.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.21.0\selenium-devtools-v123-4.21.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.21.0\selenium-devtools-v124-4.21.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.21.0\selenium-devtools-v125-4.21.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.21.0\selenium-devtools-v85-4.21.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.21.0\selenium-edge-driver-4.21.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.21.0\selenium-firefox-driver-4.21.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-http\4.21.0\selenium-http-4.21.0.jar;C:\Users\user\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.21.0\selenium-ie-driver-4.21.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.21.0\selenium-remote-driver-4.21.0.jar;C:\Users\user\.m2\repository\com\google\guava\guava\33.2.0-jre\guava-33.2.0-jre.jar;C:\Users\user\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\user\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\user\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\user\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\user\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\user\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-api\1.38.0\opentelemetry-api-1.38.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-context\1.38.0\opentelemetry-context-1.38.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.38.0\opentelemetry-exporter-logging-1.38.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.38.0\opentelemetry-sdk-common-1.38.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.38.0\opentelemetry-sdk-extension-autoconfigure-spi-1.38.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.38.0\opentelemetry-sdk-extension-autoconfigure-1.38.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.38.0-alpha\opentelemetry-api-incubator-1.38.0-alpha.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.38.0\opentelemetry-sdk-trace-1.38.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.38.0\opentelemetry-sdk-1.38.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.38.0\opentelemetry-sdk-metrics-1.38.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.38.0\opentelemetry-sdk-logs-1.38.0.jar;C:\Users\user\.m2\repository\net\bytebuddy\byte-buddy\1.14.15\byte-buddy-1.14.15.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-os\4.21.0\selenium-os-4.21.0.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.21.0\selenium-safari-driver-4.21.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-support\4.21.0\selenium-support-4.21.0.jar;C:\Users\user\.m2\repository\io\github\bonigarcia\webdrivermanager\5.8.0\webdrivermanager-5.8.0.jar;C:\Users\user\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\user\.m2\repository\com\github\docker-java\docker-java\3.3.6\docker-java-3.3.6.jar;C:\Users\user\.m2\repository\com\github\docker-java\docker-java-core\3.3.6\docker-java-core-3.3.6.jar;C:\Users\user\.m2\repository\com\github\docker-java\docker-java-api\3.3.6\docker-java-api-3.3.6.jar;C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\user\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\user\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\user\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\user\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\user\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.6\docker-java-transport-httpclient5-3.3.6.jar;C:\Users\user\.m2\repository\com\github\docker-java\docker-java-transport\3.3.6\docker-java-transport-3.3.6.jar;C:\Users\user\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\user\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-compress\1.26.1\commons-compress-1.26.1.jar;C:\Users\user\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;C:\Users\user\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\user\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\user\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\user\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\user\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\user\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\user\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\user\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\user\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\user\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;C:\Users\user\.m2\repository\ch\qos\logback\logback-classic\1.5.6\logback-classic-1.5.6.jar;C:\Users\user\.m2\repository\ch\qos\logback\logback-core\1.5.6\logback-core-1.5.6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\user"/>
+    <property name="user.language" value="en"/>
+    <property name="sun.stderr.encoding" value="UTF-8"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="C:\Users\user\Desktop\eclipse1\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.9.v20251105-0741\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\user\Desktop\enuygunAutomation-main"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="sun.stdout.encoding" value="UTF-8"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\user\AppData\Local\Temp\surefire2507916691535365908\surefirebooter-20260506220306998_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.9+10-LTS"/>
+    <property name="user.name" value="user"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-21.0.9+10"/>
+    <property name="localRepository" value="C:\Users\user\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\user\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.9"/>
+    <property name="user.dir" value="C:\Users\user\Desktop\enuygunAutomation-main"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1254"/>
+    <property name="java.library.path" value="C:\Users\user\Desktop\eclipse1\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.9.v20251105-0741\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\user\Desktop\eclipse1\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.9.v20251105-0741\jre\bin;C:\Users\user\.m2\wrapper\dists\apache-maven-3.9.12-bin\5nmfsn99br87k5d4ajlekdq10k\apache-maven-3.9.12\bin;C:\Users\user\Desktop\eclipse1\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.9.v20251105-0741\jre\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\GitHub CLI\;C:\Users\user\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\user\AppData\Local\Programs\Python\Python311\;C:\Users\user\.local\bin;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Users\user\Desktop\Yeni klasör\jdk-21.0.10\bin;C:\Users\user\Desktop\Yeni klasör\apache-maven-3.9.12\bin;C:\Users\user\Desktop\Yeni klasör\cursor\resources\app\bin;C:\Users\user\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\nodejs\;C:\Program Files\JetBrains\IntelliJ IDEA 2026.1.1\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="21.0.9+10-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testBasicFlightSearchWithTimeFilter[istanbul, ankara, 05.06.2026, 12.06.2026](1)" classname="tests.FlightSearchTest" time="21.181">
+    <failure message="All displayed flights should have departure AND arrival between 10:00 and 18:00. Departure times found: [14:10, 15:05, 11:00, 10:00, 16:00, 18:00, 13:00, 14:00, 15:00, 11:00, 16:00, 18:00] expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: All displayed flights should have departure AND arrival between 10:00 and 18:00. Departure times found: [14:10, 15:05, 11:00, 10:00, 16:00, 18:00, 13:00, 14:00, 15:00, 11:00, 16:00, 18:00] expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at tests.FlightSearchTest.testBasicFlightSearchWithTimeFilter(FlightSearchTest.java:57)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[22:03:07.706 [main] INFO  utils.ConfigReader - Configuration loaded successfully
+22:03:08.535 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.97 (resolved driver for Chrome 148)
+22:03:08.544 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win64\148.0.7778.97\chromedriver.exe
+22:03:08.547 [main] INFO  utils.DriverFactory - Starting Chrome (headless=false)
+22:03:09.326 [main] INFO  listeners.TestListener - STARTING: tests.FlightSearchTest.testBasicFlightSearchWithTimeFilter (attempt 1)
+22:03:10.717 [main] INFO  pages.HomePage - Opened https://www.enuygun.com
+22:03:12.220 [main] INFO  pages.HomePage - Cookie popup dismissed
+22:03:12.358 [main] INFO  pages.HomePage - Round-trip selected
+22:03:13.170 [main] INFO  pages.HomePage - Origin set to <b>istanbul</b>
+22:03:13.858 [main] INFO  pages.HomePage - Destination set to <b>ankara</b>
+22:03:14.012 [main] INFO  pages.HomePage - Departure date set to <b>05.06.2026</b>
+22:03:14.686 [main] INFO  pages.HomePage - Return date set to <b>12.06.2026</b>
+22:03:14.836 [main] INFO  pages.HomePage - Search button clicked
+22:03:23.296 [main] INFO  pages.HomePage - Switched to results tab: https://www.enuygun.com/ucak-bileti/arama/istanbul-ankara-esenboga-havalimani-ista-esb/?gidis=05.06.2026&donus=12.06.2026&yetiskin=1&sinif=ekonomi&currency=TRY&save=1&ref=homepage&geotrip=domestic&trip=domestic
+22:03:23.297 [main] INFO  pages.SearchResultsPage - Waiting for results page...
+22:03:23.358 [main] INFO  pages.SearchResultsPage - Results page URL detected
+22:03:26.582 [main] INFO  pages.SearchResultsPage - Flight results loaded (<b>155 flights</b>)
+22:03:26.612 [main] INFO  pages.SearchResultsPage - Route check — origin <b>istanbul</b>: true, destination <b>ankara</b>: true
+22:03:26.713 [main] INFO  pages.SearchResultsPage - Departure time filter expanded
+22:03:27.314 [main] INFO  pages.SearchResultsPage - Departure time preset selected (target range 10:00–18:00)
+22:03:27.375 [main] INFO  pages.SearchResultsPage - Time filter slid: <b>17:00 → 18:00</b> (target 18:00)
+22:03:30.480 [main] INFO  pages.SearchResultsPage - Asserting <b>departure & arrival</b> in <b>10:00 – 18:00</b> for <b>12</b> leg(s) (<b>.flight-summary-time</b> → <b>.summary-time</b>): <b>14:10 - 15:10 / 15:05 - 16:05 / 11:00 - 12:00 / 10:00 - 11:05 / 16:00 - 17:05 / 18:00 - 19:05 / 13:00 - 14:10 / 14:00 - 15:10 / 15:00 - 16:10 / 11:00 - 12:15 / 16:00 - 17:10 / 18:00 - 19:10</b>
+22:03:30.481 [main] INFO  pages.SearchResultsPage - Leg <b>18:00 - 19:05</b>: arrival <b>19:05</b> outside <b>10:00 – 18:00</b>
+22:03:30.481 [main] WARN  pages.SearchResultsPage - Arrival 19:05 outside [10, 18]
+22:03:30.499 [main] INFO  pages.SearchResultsPage - Scrolled to failing leg <b>18:00 - 19:05</b> for screenshot
+22:03:30.504 [main] INFO  listeners.RetryAnalyzer - Not retrying tests.FlightSearchTest.testBasicFlightSearchWithTimeFilter — failure is an assertion (AssertionError)
+]]></system-out>
+    <system-err><![CDATA[May 06, 2026 10:03:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 06, 2026 10:03:09 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.96. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testBasicFlightSearchWithTimeFilter[istanbul, izmir, 20.06.2026, 27.06.2026](2)" classname="tests.FlightSearchTest" time="17.554">
+    <failure message="All displayed flights should have departure AND arrival between 10:00 and 18:00. Departure times found: [16:50, 10:00, 11:00, 13:00, 15:00, 16:00, 17:00, 18:00, 14:00, 12:10, 16:35, 17:35, 14:35, 15:50, 12:00, 10:00, 17:55] expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: All displayed flights should have departure AND arrival between 10:00 and 18:00. Departure times found: [16:50, 10:00, 11:00, 13:00, 15:00, 16:00, 17:00, 18:00, 14:00, 12:10, 16:35, 17:35, 14:35, 15:50, 12:00, 10:00, 17:55] expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at tests.FlightSearchTest.testBasicFlightSearchWithTimeFilter(FlightSearchTest.java:57)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[22:03:30.507 [main] ERROR listeners.TestListener - FAILED: tests.FlightSearchTest.testBasicFlightSearchWithTimeFilter — All displayed flights should have departure AND arrival between 10:00 and 18:00. Departure times found: [14:10, 15:05, 11:00, 10:00, 16:00, 18:00, 13:00, 14:00, 15:00, 11:00, 16:00, 18:00] expected [true] but found [false]
+22:03:30.746 [main] INFO  utils.ScreenshotUtils - Screenshot saved: C:\Users\user\Desktop\enuygunAutomation-main\screenshots\testBasicFlightSearchWithTimeFilter_20260506_220330.png
+22:03:30.746 [main] INFO  utils.DriverFactory - Quitting browser
+22:03:30.871 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.97 (resolved driver for Chrome 148)
+22:03:30.874 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win64\148.0.7778.97\chromedriver.exe
+22:03:30.874 [main] INFO  utils.DriverFactory - Starting Chrome (headless=false)
+22:03:31.381 [main] INFO  listeners.TestListener - STARTING: tests.FlightSearchTest.testBasicFlightSearchWithTimeFilter (attempt 1)
+22:03:33.481 [main] INFO  pages.HomePage - Opened https://www.enuygun.com
+22:03:36.240 [main] INFO  pages.HomePage - Cookie popup dismissed
+22:03:36.314 [main] INFO  pages.HomePage - Round-trip selected
+22:03:37.088 [main] INFO  pages.HomePage - Origin set to <b>istanbul</b>
+22:03:37.757 [main] INFO  pages.HomePage - Destination set to <b>izmir</b>
+22:03:38.422 [main] INFO  pages.HomePage - Departure date set to <b>20.06.2026</b>
+22:03:38.566 [main] INFO  pages.HomePage - Return date set to <b>27.06.2026</b>
+22:03:38.709 [main] INFO  pages.HomePage - Search button clicked
+22:03:40.661 [main] INFO  pages.HomePage - Switched to results tab: https://www.enuygun.com/ucak-bileti/arama/istanbul-izmir-adnan-menderes-havalimani-ista-adb/?gidis=20.06.2026&donus=27.06.2026&yetiskin=1&sinif=ekonomi&currency=TRY&save=1&ref=homepage&geotrip=domestic&trip=domestic
+22:03:40.661 [main] INFO  pages.SearchResultsPage - Waiting for results page...
+22:03:40.728 [main] INFO  pages.SearchResultsPage - Results page URL detected
+22:03:43.975 [main] INFO  pages.SearchResultsPage - Flight results loaded (<b>205 flights</b>)
+22:03:44.003 [main] INFO  pages.SearchResultsPage - Route check — origin <b>istanbul</b>: true, destination <b>izmir</b>: true
+22:03:44.084 [main] INFO  pages.SearchResultsPage - Departure time filter expanded
+22:03:44.691 [main] INFO  pages.SearchResultsPage - Departure time preset selected (target range 10:00–18:00)
+22:03:44.749 [main] INFO  pages.SearchResultsPage - Time filter slid: <b>17:00 → 18:00</b> (target 18:00)
+22:03:48.920 [main] INFO  pages.SearchResultsPage - Asserting <b>departure & arrival</b> in <b>10:00 – 18:00</b> for <b>17</b> leg(s) (<b>.flight-summary-time</b> → <b>.summary-time</b>): <b>16:50 - 18:00 / 10:00 - 11:10 / 11:00 - 12:10 / 13:00 - 14:10 / 15:00 - 16:10 / 16:00 - 17:10 / 17:00 - 18:10 / 18:00 - 19:10 / 14:00 - 15:15 / 12:10 - 13:20 / 16:35 - 17:45 / 17:35 - 18:45 / 14:35 - 15:45 / 15:50 - 20:35 / 12:00 - 13:10 / 10:00 - 13:30 / 17:55 - 01:15</b>
+22:03:48.921 [main] INFO  pages.SearchResultsPage - Leg <b>18:00 - 19:10</b>: arrival <b>19:10</b> outside <b>10:00 – 18:00</b>
+22:03:48.921 [main] WARN  pages.SearchResultsPage - Arrival 19:10 outside [10, 18]
+22:03:48.934 [main] INFO  pages.SearchResultsPage - Scrolled to failing leg <b>18:00 - 19:10</b> for screenshot
+22:03:48.935 [main] INFO  listeners.RetryAnalyzer - Not retrying tests.FlightSearchTest.testBasicFlightSearchWithTimeFilter — failure is an assertion (AssertionError)
+]]></system-out>
+    <system-err><![CDATA[May 06, 2026 10:03:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 06, 2026 10:03:31 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.96. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testTurkishAirlinesPriceSorting[istanbul, ankara, 05.06.2026, 12.06.2026](1)" classname="tests.PriceSortingTest" time="60.56">
+    <system-out><![CDATA[22:03:48.936 [main] ERROR listeners.TestListener - FAILED: tests.FlightSearchTest.testBasicFlightSearchWithTimeFilter — All displayed flights should have departure AND arrival between 10:00 and 18:00. Departure times found: [16:50, 10:00, 11:00, 13:00, 15:00, 16:00, 17:00, 18:00, 14:00, 12:10, 16:35, 17:35, 14:35, 15:50, 12:00, 10:00, 17:55] expected [true] but found [false]
+22:03:49.141 [main] INFO  utils.ScreenshotUtils - Screenshot saved: C:\Users\user\Desktop\enuygunAutomation-main\screenshots\testBasicFlightSearchWithTimeFilter_20260506_220349.png
+22:03:49.141 [main] INFO  utils.DriverFactory - Quitting browser
+22:03:49.420 [main] INFO  listeners.TestListener - ExtentReport saved: test-output/ExtentReport.html
+22:03:49.438 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.97 (resolved driver for Chrome 148)
+22:03:49.441 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win64\148.0.7778.97\chromedriver.exe
+22:03:49.441 [main] INFO  utils.DriverFactory - Starting Chrome (headless=false)
+22:03:49.966 [main] INFO  listeners.TestListener - STARTING: tests.PriceSortingTest.testTurkishAirlinesPriceSorting (attempt 1)
+22:03:51.291 [main] INFO  pages.HomePage - Opened https://www.enuygun.com
+22:03:54.599 [main] INFO  pages.HomePage - Round-trip selected
+22:03:55.379 [main] INFO  pages.HomePage - Origin set to <b>istanbul</b>
+22:03:56.051 [main] INFO  pages.HomePage - Destination set to <b>ankara</b>
+22:03:56.695 [main] INFO  pages.HomePage - Departure date set to <b>05.06.2026</b>
+22:03:57.338 [main] INFO  pages.HomePage - Return date set to <b>12.06.2026</b>
+22:03:57.467 [main] INFO  pages.HomePage - Search button clicked
+22:04:30.215 [main] INFO  pages.HomePage - Switched to results tab: https://www.enuygun.com/ucak-bileti/arama/istanbul-ankara-esenboga-havalimani-ista-esb/?gidis=05.06.2026&donus=12.06.2026&yetiskin=1&sinif=ekonomi&currency=TRY&save=1&ref=homepage&geotrip=domestic&trip=domestic
+22:04:30.215 [main] INFO  pages.SearchResultsPage - Waiting for results page...
+22:04:30.242 [main] INFO  pages.SearchResultsPage - Results page URL detected
+22:04:31.646 [main] INFO  pages.SearchResultsPage - Cookie popup dismissed
+22:04:31.757 [main] INFO  pages.SearchResultsPage - Flight results loaded (<b>155 flights</b>)
+22:04:31.919 [main] INFO  pages.SearchResultsPage - Departure time filter expanded
+22:04:32.538 [main] INFO  pages.SearchResultsPage - Departure time preset selected (target range 10:00–18:00)
+22:04:32.605 [main] INFO  pages.SearchResultsPage - Time filter slid: <b>17:00 → 18:00</b> (target 18:00)
+22:04:33.193 [main] INFO  pages.SearchResultsPage - Airline filter expanded
+22:04:33.808 [main] INFO  pages.SearchResultsPage - THY airline filter applied
+22:04:34.914 [main] WARN  utils.WaitUtils - Click intercepted/stale for By.cssSelector: [data-testid='sortButtons0'] — retrying
+22:04:34.984 [main] INFO  pages.SearchResultsPage - Sorted results by cheapest price
+22:04:50.463 [main] INFO  pages.SearchResultsPage - Asserting all <b>7</b> flights are <b>Türk Hava Yolları</b>. Unique airlines on page: <b>Türk Hava Yolları</b>
+22:04:50.464 [main] INFO  pages.SearchResultsPage - All <b>7</b> flights are <b>Türk Hava Yolları</b>
+22:04:50.526 [main] INFO  pages.SearchResultsPage - Asserting <b>ascending</b> price order over <b>7</b> price(s): <b>[2846.0, 3911.0, 3911.0, 3911.0, 3911.0, 4754.0, 4754.0]</b>
+22:04:50.526 [main] INFO  pages.SearchResultsPage - Prices are sorted ascending: <b>2846.0 → 4754.0</b>
+]]></system-out>
+    <system-err><![CDATA[May 06, 2026 10:03:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 06, 2026 10:03:49 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.96. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testCriticalUserJourney[istanbul, ankara, 05.06.2026, 12.06.2026](1)" classname="tests.CriticalPathTest" time="45.445">
+    <failure message="Round-trip selection should transition to booking step (URL change or booking container visible). expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Round-trip selection should transition to booking step (URL change or booking container visible). expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at tests.CriticalPathTest.testCriticalUserJourney(CriticalPathTest.java:88)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[22:04:50.527 [main] INFO  listeners.TestListener - PASSED: tests.PriceSortingTest.testTurkishAirlinesPriceSorting (60561ms)
+22:04:50.654 [main] INFO  utils.ScreenshotUtils - Screenshot saved: C:\Users\user\Desktop\enuygunAutomation-main\screenshots\testTurkishAirlinesPriceSorting_20260506_220450.png
+22:04:50.654 [main] INFO  utils.DriverFactory - Quitting browser
+22:04:50.766 [main] INFO  listeners.TestListener - ExtentReport saved: test-output/ExtentReport.html
+22:04:50.775 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 148.0.7778.97 (resolved driver for Chrome 148)
+22:04:50.777 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win64\148.0.7778.97\chromedriver.exe
+22:04:50.777 [main] INFO  utils.DriverFactory - Starting Chrome (headless=false)
+22:04:51.301 [main] INFO  listeners.TestListener - STARTING: tests.CriticalPathTest.testCriticalUserJourney (attempt 1)
+22:04:52.714 [main] INFO  pages.HomePage - Opened https://www.enuygun.com
+22:04:56.027 [main] INFO  pages.HomePage - Round-trip selected
+22:04:56.792 [main] INFO  pages.HomePage - Origin set to <b>istanbul</b>
+22:04:57.479 [main] INFO  pages.HomePage - Destination set to <b>ankara</b>
+22:04:58.125 [main] INFO  pages.HomePage - Departure date set to <b>05.06.2026</b>
+22:04:58.759 [main] INFO  pages.HomePage - Return date set to <b>12.06.2026</b>
+22:04:58.883 [main] INFO  pages.HomePage - Search button clicked
+22:05:00.336 [main] INFO  pages.HomePage - Switched to results tab: https://www.enuygun.com/ucak-bileti/arama/istanbul-ankara-esenboga-havalimani-ista-esb/?gidis=05.06.2026&donus=12.06.2026&yetiskin=1&sinif=ekonomi&currency=TRY&save=1&ref=homepage&geotrip=domestic&trip=domestic
+22:05:00.337 [main] INFO  pages.SearchResultsPage - Waiting for results page...
+22:05:00.352 [main] INFO  pages.SearchResultsPage - Results page URL detected
+22:05:00.975 [main] INFO  pages.SearchResultsPage - Cookie popup dismissed
+22:05:01.894 [main] INFO  pages.SearchResultsPage - Flight results loaded (<b>155 flights</b>)
+22:05:02.026 [main] INFO  pages.SearchResultsPage - Route check — origin <b>istanbul</b>: true, destination <b>ankara</b>: true
+22:05:02.407 [main] INFO  pages.SearchResultsPage - Selected first flight — airline: <b>Pegasus</b>, price: <b>1540.0 TL</b>
+22:05:02.777 [main] INFO  pages.SearchResultsPage - Clicked <b>'Seç ve ilerle'</b> on departure flight
+22:05:02.818 [main] INFO  pages.SearchResultsPage - Return-flight selection step is rendered
+22:05:02.906 [main] INFO  pages.SearchResultsPage - Selected first return flight
+22:05:02.928 [main] INFO  pages.SearchResultsPage - Return-flight confirmation step is rendered
+22:05:03.057 [main] INFO  pages.SearchResultsPage - Clicked <b>'Seç ve ilerle'</b> on return flight
+22:05:23.446 [main] INFO  pages.SearchResultsPage - URL transition check: same page
+22:05:36.748 [main] INFO  listeners.RetryAnalyzer - Not retrying tests.CriticalPathTest.testCriticalUserJourney — failure is an assertion (AssertionError)
+]]></system-out>
+    <system-err><![CDATA[May 06, 2026 10:04:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 06, 2026 10:04:51 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.96. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+</testsuite>

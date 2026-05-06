@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Enuygun Flight Search Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Chrome - Flight Search(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="tests.FlightSearchTest">
+        <methods>
+          <include name="testBasicFlightSearchWithTimeFilter" invocation-numbers="0 1"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.FlightSearchTest -->
+    </classes>
+  </test> <!-- Chrome - Flight Search(failed) -->
+  <test thread-count="5" name="Chrome - Critical Path(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="tests.CriticalPathTest">
+        <methods>
+          <include name="testCriticalUserJourney" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.CriticalPathTest -->
+    </classes>
+  </test> <!-- Chrome - Critical Path(failed) -->
+</suite> <!-- Failed suite [Enuygun Flight Search Suite] -->

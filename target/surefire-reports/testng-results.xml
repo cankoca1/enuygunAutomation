@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-06T22:19:53 TRT" name="Surefire suite" finished-at="2026-05-06T22:20:18 TRT" duration-ms="25013">
+    <groups>
+    </groups>
+    <test started-at="2026-05-06T22:19:53 TRT" name="Surefire test" finished-at="2026-05-06T22:20:18 TRT" duration-ms="25013">
+      <class name="tests.CriticalPathTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.CriticalPathTest@5db6b9cd]" started-at="2026-05-06T22:19:53 TRT" name="setUp" finished-at="2026-05-06T22:19:54 TRT" duration-ms="989" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCriticalUserJourney(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.CriticalPathTest@5db6b9cd]" started-at="2026-05-06T22:19:54 TRT" name="testCriticalUserJourney" description="E2E critical path: search → browse → validate → select → verify transition" data-provider="criticalPathData" finished-at="2026-05-06T22:20:18 TRT" duration-ms="23400" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[istanbul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ankara]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[05.06.2026]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12.06.2026]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCriticalUserJourney -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.CriticalPathTest@5db6b9cd]" started-at="2026-05-06T22:20:18 TRT" name="tearDown" finished-at="2026-05-06T22:20:18 TRT" duration-ms="330" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCriticalUserJourney status=SUCCESS method=CriticalPathTest.testCriticalUserJourney(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.CriticalPathTest@5db6b9cd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CriticalPathTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
